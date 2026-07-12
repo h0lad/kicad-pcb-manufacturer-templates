@@ -4,33 +4,34 @@ JLCPCB 8-layer, 1.6 mm, JLC08161H-3313 order-flow default stackup. Material is
 Nan Ya NP-155F (TG150) — 8-layer runs on the high-precision line, not the
 TG135 laminate used for 1-6 layer standard. Free via-in-pad (POFV) included.
 
-**Note:** JLCPCB does not publish 8-layer stackups on the static impedance
-page; the table below reflects the order-flow default. Verify in the order
-dialog / impedance calculator before an impedance-controlled run.
+**Stackup verified from the JLCPCB order flow** (Advanced PCB, 8 layers,
+"No requirement" = JLC08161H default). Uses 1080 prepreg internally, not 7628.
 
-## Stackup: JLC08161H-3313 (1.6 mm)
+## Stackup: JLC08161H default (1.6 mm)
 
-| Layer          | Material        | Thickness  | Er   |
-|----------------|-----------------|-----------:|------|
-| F.Cu           | Cu 1 oz         | 0.0350 mm  |      |
-| Prepreg        | 3313            | 0.0994 mm  | 4.1  |
-| In1.Cu (GND1)  | Cu 0.5 oz       | 0.0152 mm  |      |
-| Core           | NP-155F         | 0.2500 mm  | 4.6  |
-| In2.Cu (SIG)   | Cu 0.5 oz       | 0.0152 mm  |      |
-| Prepreg        | 7628            | 0.2104 mm  | 4.4  |
-| In3.Cu (PWR)   | Cu 0.5 oz       | 0.0152 mm  |      |
-| Core           | NP-155F         | 0.2500 mm  | 4.6  |
-| In4.Cu (GND2)  | Cu 0.5 oz       | 0.0152 mm  |      |
-| Prepreg        | 7628            | 0.2104 mm  | 4.4  |
-| In5.Cu (SIG)   | Cu 0.5 oz       | 0.0152 mm  |      |
-| Core           | NP-155F         | 0.2500 mm  | 4.6  |
-| In6.Cu (GND3)  | Cu 0.5 oz       | 0.0152 mm  |      |
-| Prepreg        | 3313            | 0.0994 mm  | 4.1  |
-| B.Cu           | Cu 1 oz         | 0.0350 mm  |      |
+| Layer          | Material     | Thickness  | Er   |
+|----------------|--------------|-----------:|------|
+| F.Cu           | Cu 1 oz      | 0.0350 mm  |      |
+| Prepreg        | 2116         | 0.1164 mm  | 4.16 |
+| In1.Cu (GND1)  | Cu 0.5 oz    | 0.0152 mm  |      |
+| Core           | FR-4         | 0.3000 mm  | 4.6  |
+| In2.Cu (SIG)   | Cu 0.5 oz    | 0.0152 mm  |      |
+| Prepreg        | 1080 x2      | 0.1528 mm  | 4.1  |
+| In3.Cu (PWR)   | Cu 0.5 oz    | 0.0152 mm  |      |
+| Core           | FR-4         | 0.3000 mm  | 4.6  |
+| In4.Cu (GND2)  | Cu 0.5 oz    | 0.0152 mm  |      |
+| Prepreg        | 1080 x2      | 0.1528 mm  | 4.1  |
+| In5.Cu (SIG)   | Cu 0.5 oz    | 0.0152 mm  |      |
+| Core           | FR-4         | 0.3000 mm  | 4.6  |
+| In6.Cu (GND3)  | Cu 0.5 oz    | 0.0152 mm  |      |
+| Prepreg        | 2116         | 0.1164 mm  | 4.16 |
+| B.Cu           | Cu 1 oz      | 0.0350 mm  |      |
 
-Layer plan: SIG / GND / SIG / PWR / GND / SIG / GND / SIG. In2 and In5 route
-as stripline: In2 references In1 (0.25 mm core) and In3; In5 references In4
-and In6.
+Verified from the order flow (JLC08161H, "No requirement"). Material NP-155F
+(TG150), free ENIG and POFV. Note the outer prepreg is 2116 (0.1164 mm), not
+3313 -- so the outer-layer impedance geometries below differ from the 6-layer
+template.
+
 
 ## Global DRC constraints
 

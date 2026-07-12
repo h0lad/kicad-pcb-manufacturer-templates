@@ -55,12 +55,12 @@
         {
           "gap": 0.203,
           "via_gap": 0.25,
-          "width": 0.154
+          "width": 0.175
         },
         {
           "gap": 0.203,
           "via_gap": 0.25,
-          "width": 0.119
+          "width": 0.139
         }
       ],
       "drc_exclusions": [],
@@ -183,9 +183,11 @@
         0.09,
         0.1,
         0.119,
+        0.139,
         0.15,
         0.151,
         0.154,
+        0.181,
         0.2,
         0.25,
         0.3,
@@ -554,14 +556,14 @@
         "clearance": 0.15,
         "diff_pair_gap": 0.203,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.154,
+        "diff_pair_width": 0.175,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Diff_90R_USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.154,
+        "track_width": 0.175,
         "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6
@@ -571,14 +573,14 @@
         "clearance": 0.15,
         "diff_pair_gap": 0.203,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.119,
+        "diff_pair_width": 0.139,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Diff_100R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.119,
+        "track_width": 0.139,
         "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6
@@ -588,14 +590,14 @@
         "clearance": 0.3,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.151,
+        "diff_pair_width": 0.181,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "RF_50R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.151,
+        "track_width": 0.181,
         "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6

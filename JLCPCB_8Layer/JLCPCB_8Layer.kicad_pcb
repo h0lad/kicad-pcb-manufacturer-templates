@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "JLCPCB 8-Layer Template")
-		(comment 1 "Stackup: PLACEHOLDER - JLCPCB publishes 8L stackups only in the order flow")
-		(comment 2 "Copy exact thicknesses from cart.jlcpcb.com/quote after selection")
+		(comment 1 "Stackup: JLC08161H default (No requirement), 1.6mm, verified from order flow")
+		(comment 2 "2116 / core0.3 / 1080x2 / core0.3 / 1080x2 / core0.3 / 2116")
 		(comment 3 "SIG / GND / SIG / PWR / GND / SIG / GND / SIG")
 	)
 	(layers
